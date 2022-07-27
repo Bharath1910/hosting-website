@@ -113,3 +113,89 @@ nav {
     width: 64px;
 }
 
+.pricing {
+    background: rgb(4,98,234);
+    background: linear-gradient(5deg, rgba(4,98,234,1) 20%, rgba(9,193,248,1) 80%);
+    margin: 150px -70px !important;
+    height: 120vh;
+}
+
+.price-heading {
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-heading h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.price-cards {
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
+}
+
+.price-card {
+    width: 21%;
+
+    padding: 0px 40px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.price-card:nth-child(2) .card-heading {
+    background-color: #353535;
+    margin: 0 -40px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.price-card:nth-child(2) .card-heading h1,
+.price-card:nth-child(2) .card-heading p {
+    color: #fff;
+}
+
+.card-list p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.card-list p i {
+    color: #54E3BD;
+}
+
+.price-rate {
+    text-align: center;
+    height: 200px;
+}
+
+.price-rate h1 {
+    color: #1D2B4F;
+}
+
+.price-rate h1 span,
+.price-rate p {
+    color: #798196;
+}
+
+.price-rate p {
+    margin-bottom: 40px;
+}
+
+.price-rate a {
+    text-decoration: none;
+    border: 2px solid rgb(4,98,234);
+    padding: 10px 40px;
+    border-radius: 10px;
+
+    color: rgba(4,98,234,1);
+    font-weight: 600;
+}
