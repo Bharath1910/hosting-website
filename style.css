@@ -39,3 +39,77 @@ nav {
     padding: 15px 40px;
     border-radius: 10px;
 }
+
+.post {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 0;
+}
+
+.left {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.post:nth-child(3) .left {
+    margin: 100px 0;
+}
+
+.left h1 {
+    font-size: 55px;
+}
+
+.left p {
+    color: #4b4848;
+    font-weight: 300;
+}
+
+.left a {
+    text-decoration: none;
+    background: rgb(4,98,234);
+    background: linear-gradient(5deg, rgba(4,98,234,1) 20%, rgba(9,193,248,1) 80%); 
+    width: fit-content;
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.right {
+    width: 40vw;
+}
+
+.service-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-top h1 {
+    width: 40vw;
+    font-size: 45px;
+}
+
+.service-top p {
+    width: 40vw;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.service-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+
+.service-card {
+    flex-shrink: 0;
+    width: 25%;
+}
+
+.service-card img {
+    width: 64px;
+}
+
